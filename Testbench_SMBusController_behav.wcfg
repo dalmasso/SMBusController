@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_SMBusController_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench_SMBusController" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="600.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="743.000001 us"></ZoomEndTime>
+      <Cursor1Time time="780.256242 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/clock_12M">
+      <obj_property name="ElementShortName">clock_12M</obj_property>
+      <obj_property name="ObjectShortName">clock_12M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/mode">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/slave_addr">
+      <obj_property name="ElementShortName">slave_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">slave_addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/cmd_enable">
+      <obj_property name="ElementShortName">cmd_enable</obj_property>
+      <obj_property name="ObjectShortName">cmd_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/pec_enable">
+      <obj_property name="ElementShortName">pec_enable</obj_property>
+      <obj_property name="ObjectShortName">pec_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/cmd">
+      <obj_property name="ElementShortName">cmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_SMBusController/uut/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_SMBusController/uut/clock_divider">
+      <obj_property name="ElementShortName">clock_divider</obj_property>
+      <obj_property name="ObjectShortName">clock_divider</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/clock_enable">
+      <obj_property name="ElementShortName">clock_enable</obj_property>
+      <obj_property name="ObjectShortName">clock_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/clock_enable_1_4">
+      <obj_property name="ElementShortName">clock_enable_1_4</obj_property>
+      <obj_property name="ObjectShortName">clock_enable_1_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/clock_enable_3_4">
+      <obj_property name="ElementShortName">clock_enable_3_4</obj_property>
+      <obj_property name="ObjectShortName">clock_enable_3_4</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/uut/bit_counter">
+      <obj_property name="ElementShortName">bit_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/bit_counter_end">
+      <obj_property name="ElementShortName">bit_counter_end</obj_property>
+      <obj_property name="ObjectShortName">bit_counter_end</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_SMBusController/uut/byte_counter">
+      <obj_property name="ElementShortName">byte_counter</obj_property>
+      <obj_property name="ObjectShortName">byte_counter</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/byte_counter_end">
+      <obj_property name="ElementShortName">byte_counter_end</obj_property>
+      <obj_property name="ObjectShortName">byte_counter_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/smbclk">
+      <obj_property name="ElementShortName">smbclk</obj_property>
+      <obj_property name="ObjectShortName">smbclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/smbdat">
+      <obj_property name="ElementShortName">smbdat</obj_property>
+      <obj_property name="ObjectShortName">smbdat</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbdat_out">
+      <obj_property name="ElementShortName">smbdat_out</obj_property>
+      <obj_property name="ObjectShortName">smbdat_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/uut/smbdat_out_reg">
+      <obj_property name="ElementShortName">smbdat_out_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">smbdat_out_reg[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/uut/smbdat_in_reg">
+      <obj_property name="ElementShortName">smbdat_in_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">smbdat_in_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/data_read">
+      <obj_property name="ElementShortName">data_read[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/data_read_valid">
+      <obj_property name="ElementShortName">data_read_valid</obj_property>
+      <obj_property name="ObjectShortName">data_read_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbus_pec_reset">
+      <obj_property name="ElementShortName">smbus_pec_reset</obj_property>
+      <obj_property name="ObjectShortName">smbus_pec_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbus_pec_enable">
+      <obj_property name="ElementShortName">smbus_pec_enable</obj_property>
+      <obj_property name="ObjectShortName">smbus_pec_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/uut/smbus_pec_input">
+      <obj_property name="ElementShortName">smbus_pec_input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">smbus_pec_input[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/uut/smbus_pec_value">
+      <obj_property name="ElementShortName">smbus_pec_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">smbus_pec_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SMBusController/uut/smbus_pec_received">
+      <obj_property name="ElementShortName">smbus_pec_received[7:0]</obj_property>
+      <obj_property name="ObjectShortName">smbus_pec_received[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbus_busy">
+      <obj_property name="ElementShortName">smbus_busy</obj_property>
+      <obj_property name="ObjectShortName">smbus_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbus_timeout">
+      <obj_property name="ElementShortName">smbus_timeout</obj_property>
+      <obj_property name="ObjectShortName">smbus_timeout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbus_arbitration">
+      <obj_property name="ElementShortName">smbus_arbitration</obj_property>
+      <obj_property name="ObjectShortName">smbus_arbitration</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/uut/smbclk_stretching">
+      <obj_property name="ElementShortName">smbclk_stretching</obj_property>
+      <obj_property name="ObjectShortName">smbclk_stretching</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/error">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SMBusController/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+</wave_config>
